@@ -1,3 +1,28 @@
 [
-
+    {
+        "caption": "Local History",
+        "id": "3_row",
+        "children":
+        [
+            { "caption": "-", "id": "1_row" },
+            { "caption": "-", "id": "2_row" },
+            {
+                "caption": "Color Helper",
+                "children":
+                [
+                    { "caption": "Color Info", "command": "color_helper", "args": { "mode": "info" } },
+                    { "caption": "Color Palettes", "command": "color_helper", "args": {"mode": "palette"} },
+                    { "caption": "Color Picker", "command": "color_helper", "args": { "mode": "color_picker" } }
+                ]
+            },
+            { "caption": "-", "id": "3_row" },
+            { "caption": "-", "id": "4_row" },
+            { "caption": "-", "id": "5_row" },
+            { "caption": "-", "id": "6_row" },
+            { "caption": "-", "id": "7_row" },
+            { "caption": "-", "id": "8_row" },
+            { "caption": "-", "id": "9_row" },
+            { "caption": "-", "id": "10_row" },
+        ]
+    }
 ]
